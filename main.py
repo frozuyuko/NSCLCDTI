@@ -98,7 +98,7 @@ for epoch in range(1, 26):
     best_auc = 0
     if auc_score > best_auc:
         best_auc = auc_score
-        torch.save(model.state_dict(), '~/model/GCNDTI_finalmodel_gonode_kmersedges.pth')
+        torch.save(model.state_dict(), './model/GCNDTI_finalmodel_gonode_kmersedges.pth')
 
 
 
