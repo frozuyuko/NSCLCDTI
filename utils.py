@@ -96,7 +96,7 @@ class GCNDTI(nn.Module):
         self.conv1 = GCNConv(30, 64)
         self.conv2 = GCNConv(64, 64)
         self.conv3 = GCNConv(64, 64)
-        self.fc_drug = nn .Linear(64, 128)
+        self.fc_drug = nn.Linear(64, 128)
         self.fc_protein = nn.Linear(979, 128)
         concat_dim = 128 + 128 + 881
         self.fc1 = nn.Linear(concat_dim, 512)
