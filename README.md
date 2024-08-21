@@ -1,4 +1,4 @@
-# NSCLCDTI: Integrating graph convolution networks for drug target interaction screening in non-small cell lung cancer 
+# NSCLC-GDTI: Integrating graph convolution networks for drug target interaction screening in non-small cell lung cancer 
 
 If you use the data or code of this research, kindly cite: 
 
