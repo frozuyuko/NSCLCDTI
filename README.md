@@ -10,7 +10,9 @@ Candidate drugs for NSCLC: NSCLCGDTI>Result>candidatedrugs.csv
 1. Prepare environment and install packages
 - For environment, you can use conda or python environment
 - After activating your environment, install the necessary packages from requirements.txt
+  
 cd NSCLCGDTI
+
 pip install -r requirements.txt
 
 2. Use the pre-trained model in model folder
